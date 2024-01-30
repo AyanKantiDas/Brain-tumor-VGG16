@@ -3,6 +3,9 @@
 
 <h3>The above Trained Model is giving a predicted percentage of 95%.<h3>
 
+
+The dataset used link : https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection
+
 A Convolutional Neural Network, also known as CNN or ConvNet, is a class of neural networks that specializes in processing data that has a grid-like topology, such as an image.
 
 VGG16 is a convolutional neural network (CNN) architecture that was introduced by the Visual Graphics Group (VGG) at the University of Oxford. It is part of the VGGNet family of models, which includes variations like VGG16 and VGG19. VGG16 specifically refers to a model with 16 weight layers, including 13 convolutional layers and 3 fully connected layers. The "16" in VGG16 signifies the total number of weight layers in the network.
