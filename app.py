@@ -1,12 +1,12 @@
 import numpy as np
 import pandas as pd
 import os
-# %%
+
 import keras
 from keras.models import Sequential
 from keras.layers import Conv2D, Flatten, Dense, MaxPooling2D, Dropout
 from sklearn.metrics import accuracy_score
-# %%
+
 import ipywidgets as widgets
 import io
 from PIL import Image
@@ -16,7 +16,7 @@ import cv2
 from sklearn.utils import shuffle
 import tensorflow as tf
 
-# %%
+
 X_train = []
 Y_train = []
 image_size = 150
@@ -85,17 +85,17 @@ model.add(Dense(512, activation='relu'))
 model.add(Dense(512, activation='relu'))
 model.add(Dropout(0.3))
 model.add(Dense(4, activation='softmax'))
-# %%
+
 model.summary()
-# %%
+
 model.compile(loss='categorical_crossentropy', optimizer='Adam', metrics=['accuracy'])
-# %%
+
 history = model.fit(X_train, y_train, epochs=20, validation_split=0.1)
-# %%
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# %%
+
 model.save('braintumorvgg16.h5')
 
 acc = history.history['accuracy']
@@ -106,7 +106,7 @@ plt.plot(epochs, acc, 'r', label="Train Accuracy")
 plt.plot(epochs, val_acc, 'b', label="Validation Accuracy")
 plt.legend(loc='upper left')
 plt.show()
-# %%
+
 loss = history.history['loss']
 val_loss = history.history['val_loss']
 epochs = range(len(loss))
@@ -115,7 +115,7 @@ plt.plot(epochs, loss, 'r', label="Train Loss")
 plt.plot(epochs, val_loss, 'b', label="Validation Loss")
 plt.legend(loc='upper left')
 plt.show()
-# %%
+
 img = cv2.imread('5 no.jpg')
 
 img = cv2.resize(img, (150, 150))
@@ -143,4 +143,4 @@ elif indices == 2:
     print("No Tumor Found")
 elif indices == 3:
     print("Pituitary Tumor Found")
-# %%
+
