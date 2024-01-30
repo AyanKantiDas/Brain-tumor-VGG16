@@ -223,11 +223,12 @@ Epoch 20/20
 
 
 
-![image](https://github.com/AyanKantiDas/Brain-tumor-VGG16/assets/103057066/3fdd79f2-e137-4fa9-b7f2-70c4c790bf2b)
+![image](https://github.com/AyanKantiDas/Brain-tumor-VGG16/assets/103057066/d821d313-ea4b-496d-ac02-4739e093c750)
 
 
 
-![image](https://github.com/AyanKantiDas/Brain-tumor-VGG16/assets/103057066/856adb74-7eb1-431a-88b5-f4f3ff205f31)
+![image](https://github.com/AyanKantiDas/Brain-tumor-VGG16/assets/103057066/5e1d903b-5762-4a42-a6ac-7ca857e800ca)
+
 
 
 
