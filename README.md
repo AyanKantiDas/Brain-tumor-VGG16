@@ -7,6 +7,9 @@ A Convolutional Neural Network, also known as CNN or ConvNet, is a class of neur
 
 VGG16 is a convolutional neural network (CNN) architecture that was introduced by the Visual Graphics Group (VGG) at the University of Oxford. It is part of the VGGNet family of models, which includes variations like VGG16 and VGG19. VGG16 specifically refers to a model with 16 weight layers, including 13 convolutional layers and 3 fully connected layers. The "16" in VGG16 signifies the total number of weight layers in the network.
 
+![image](https://github.com/AyanKantiDas/Brain-tumor-VGG16/assets/103057066/9f163897-3a60-4b68-b5bd-c87d1506b261)
+
+
 Key characteristics of VGG16:
 
 Architecture:
@@ -29,6 +32,9 @@ VGG16 has a relatively large number of parameters, making it computationally exp
 VGG16 achieved excellent performance on image classification tasks and became well-known for its simplicity and effectiveness. It was one of the top-performing models in the ImageNet Large Scale Visual Recognition Challenge (ILSVRC) in 2014.
 
 While VGG16 is not the most computationally efficient model, its architecture and principles have influenced the design of subsequent CNN architectures. Researchers often use VGG16 as a baseline or starting point for experiments in computer vision tasks. Moreover, pre-trained versions of VGG16 are commonly used as feature extractors or as the initial layers for transfer learning on various image-related tasks.
+
+![image](https://github.com/AyanKantiDas/Brain-tumor-VGG16/assets/103057066/1e776c8a-fca3-4829-9d92-f01f13f39c85)
+
 
 Explanation of the Code:-
 
