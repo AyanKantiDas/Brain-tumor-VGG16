@@ -92,6 +92,9 @@ This neural network model appears to be a convolutional neural network (CNN) ins
 
 The repeated pattern of convolutional layers, max pooling, and dropout is a characteristic of VGG-style architectures. The model aims to capture hierarchical features from the input images, and the fully connected layers at the end facilitate the final classification. The softmax activation in the output layer is suitable for multi-class classification problems.
 
+![image](https://github.com/AyanKantiDas/Brain-tumor-VGG16/assets/103057066/60118214-7201-40ea-9f2d-15d8c67400a5)
+
+
 
 Model: "sequential"
 _________________________________________________________________
